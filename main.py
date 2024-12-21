@@ -11,7 +11,6 @@ from pystyle import Colors, Write, Box, Colorate, Center
 import time
 from time import sleep
 from keep_alive import keep_alive
-import Flask
 import websocket
 
 def clear(): return os.system('cls') if os.name == 'nt' else os.system('clear')
